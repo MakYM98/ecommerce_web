@@ -1,0 +1,93 @@
+{
+    "products": [
+        {
+            "id":"1",
+            "name": "Blue Suit",
+            "images":[
+                {"id":"1", "image":"/imgs/blue_suit_1.jpg"},
+                {"id":"2", "image":"/imgs/blue_suit_2.jpg"}
+            ],
+            "category":{
+                "id":"1",
+                "name":"Suits"
+            },
+            "size":{"id":"2","name":"Medium"},
+            "color":{"id":"1", "name":"Blue","value":"blue"},
+            "price":"39"
+        },
+        {
+            "id":"2",
+            "name": "Black Suit",
+            "images":[
+                {"id":"1", "image":"/imgs/black_suit_1.jpg"},
+                {"id":"2", "image":"/imgs/black_suit_2.jpg"}
+            ],
+            "category":{
+                "id":"1",
+                "name":"Suits"
+            },
+            "size":{"id":"1","name":"Small"},
+            "color":{"id":"2", "name":"Black","value":"black"},
+            "price":"39"
+        },
+        {
+            "id":"3",
+            "name": "Gray Suit",
+            "images":[
+                {"id":"1", "image":"/imgs/gray_suit_1.jpg"},
+                {"id":"2", "image":"/imgs/gray_suit_2.jpg"}
+            ],
+            "category":{
+                "id":"1",
+                "name":"Suits"
+            },
+            "size":{"id":"3","name":"Large"},
+            "color":{"id":"3", "name":"Gray","value":"gray"},
+            "price":"39"
+        },
+        {
+            "id":"4",
+            "name": "Red Air Jordans",
+            "images":[
+                {"id":"1", "image":"/imgs/shoe_1.jpg"},
+                {"id":"2", "image":"/imgs/shoe_2.jpg"}
+            ],
+            "category":{
+                "id":"2",
+                "name":"Shoes"
+            },
+            "size":{"id":"2","name":"Medium"},
+            "color":{"id":"4", "name":"red","value":"red"},
+            "price":"240"
+        },
+        {
+            "id":"5",
+            "name": "Adidas NMD",
+            "images":[
+                {"id":"1", "image":"/imgs/shoe_3.jpg"}
+            ],
+            "category":{
+                "id":"2",
+                "name":"Shoes"
+            },
+            "size":{"id":"1","name":"Small"},
+            "color":{"id":"5", "name":"white","value":"white"},
+            "price":"149"
+        }
+    ],
+    "categories":{
+        "1": {
+            "billboard":{
+                "title": "Explore the Suits Collection",
+                "image":"/imgs/billboard.jpg"
+            }
+        },
+        "2": {
+            "billboard":{
+                "title": "Explore the Shoes Collection",
+                "image":"/imgs/billboard.jpg"
+            }
+        }
+    }
+    
+}
