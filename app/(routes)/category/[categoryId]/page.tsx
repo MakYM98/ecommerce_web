@@ -78,7 +78,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({
         <div className="bg-white">
             <Container>
                 <Billboard
-                    data={data.categories[params.categoryId].billboard}
+                    data={data.categories[params.categoryId as keyof typeof data.categories].billboard}
                 />
                 <div className="px-4 sm:px-6 lg:px-8 pb-24">
                     <div className="lg:grid lg:grid-cols-5 lg:gap-x-8">
